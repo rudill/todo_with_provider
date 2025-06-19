@@ -1,16 +1,29 @@
 # todo_with_provider
 
-A new Flutter project.
+A simple cross-platform To-Do application demonstrating state management and modular architecture using Provider.  
+
+## Features
+
+- Add and remove to-do items
+- Mark tasks as complete or incomplete
+- Clean code with modular structure
+- Provider-based state management (for Dart/Flutter implementation)
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+### 1. Clone the repository
 
-A few resources to get you started if this is your first Flutter project:
+```bash
+git clone https://github.com/rudill/todo_with_provider.git
+cd todo_with_provider
+```
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+### 2. Build & Run
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+#### For Dart (Flutter)
+
+```bash
+cd flutter_app  # If Dart code is in a subdirectory
+flutter pub get
+flutter run
+```
